@@ -37,7 +37,7 @@ logging.basicConfig(
 # =============================================================================
 # Hardcoded Shodan API Key (REPLACE if needed)
 # =============================================================================
-SHODAN_API_KEY = "fpmw3aG9HRVxXZyM2P5qy55LFQwk2H4U"  # Replace with your Shodan API key
+SHODAN_API_KEY = "put-your-key-here"  # Replace with your Shodan API key
 
 try:
     api = shodan.Shodan(SHODAN_API_KEY)
